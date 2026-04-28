@@ -130,6 +130,31 @@ main > section {
 
 }
 
+/* feature section related style */
+
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.feature-card, .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
 /* some fact related styles */
 
 .facts-container{
@@ -220,6 +245,11 @@ main > section {
     };
     .our-features{
         margin-left: 60px;
+    }
+    .sponsor-companies, .facts-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        justify-items: center;
     }
 }
 
